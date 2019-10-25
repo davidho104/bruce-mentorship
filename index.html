@@ -7,7 +7,6 @@
     <title>Bruce-Mentorship</title>
     <link rel="stylesheet" href="assets/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" /> -->
 </head>
 <body>
     <div class="nav"></div>
@@ -22,9 +21,17 @@
     <div class="form-description">FREE LIVE WEBCAST</div>
     <div class="form-date">Friday, January 4, 2019 at 3:15PM CT</div>
     <form>
-        <input class="form-name" type="text" name="Name" placeholder="NAME">
-        <input class="form-email" type="text" name="Email" placeholder="EMAIL ADDRESS">
+        <input id="auto-name" class="form-name" type="text" name="FIRSTNAME" placeholder="NAME" required autocomplete="FIRSTNAME">
+        <input id="auto-email" class="form-email" type="email" name="EMAIL@EMAIL.COM" placeholder="EMAIL ADDRESS" required autocomplete="EMAIL@EMAIL.COM">
+        <!-- <input type="submit"> -->
+         <!-- Add validation and allow enter keypress  -->
     </form>
+    <script>
+        let email = window.location.search.substring(1).split("?")[0].split("=")[1]
+        let fname = window.location.search.substring(1).split("?")[1].split("=")[1]
+        document.getElementById('auto-name').value=fname;
+        document.getElementById('auto-email').value=email;
+    </script>
     <button type="button" onclick="alert('Congratulations, seat successfully claimed!')">CLAIM MY SEAT NOW</button>
     <div class="miss-out-text">Don't Miss Out!</div>
     <div class="second-body"></div>
@@ -40,8 +47,7 @@
     <div class="bonus">Bonus: Sneak peek at the strategy Bruce is currently using in these volatile markets that has had over a 70% success rate</div>
     <div class="bonus-border"></div>
     <div class="footer"></div>
-    <!-- <div class="logo-footer"><img src="/assets/Trademark-ST-Logo-White.png" alt=""></div> -->
-    <img class="footer-logo" src="./assets/Trademark-ST-Logo-White.png" alt="Logo">
+    <img class="footer-logo" src="./assets/img/Trademark-ST-Logo-White.png" alt="Logo">
     <div class="footer-divider"></div>
     <div class="footer-info"><a class="email-link" href="mailto:support@simplertrading.com">support@simplertrading.com</a> &nbsp; - &nbsp;  4300 N Quinlan Park Rd &nbsp; - &nbsp; Austin, TX 78732 &nbsp; - &nbsp; 512-266-8659</div>
 </body>

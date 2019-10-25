@@ -1,4 +1,3 @@
-
 .nav{
     left: 0px;
     width: 2000px;
@@ -11,14 +10,14 @@
     left: 779px;
     width: 443px;
     height: 39px;
-    background: transparent url('Trademark-ST-Logo-White.png') 0% 0% no-repeat padding-box;
+    background: transparent url('./img/Trademark-ST-Logo-White.png') 0% 0% no-repeat padding-box;
 }
 .first-body{
     top: 148px;
     left: 0px;
     width: 2000px;
     height: 796px;
-    background: transparent url('Group\ 2138.png') 0% 0% no-repeat padding-box;
+    background: transparent url('./img/Group\ 2138.png') 0% 0% no-repeat padding-box;
 }
 .first-text{
     position: absolute;
@@ -28,7 +27,7 @@
     height: 216px;
     text-align: left;
     font: bolder 57px/69px 'Open Sans';
-    text-shadow: 0px 3px, 3px 0px, 3px 3px;
+    text-shadow: 0px 3px, 3px 0px, 3px 2px;
     letter-spacing: 3px;
     color: #676767;
 }
@@ -56,7 +55,7 @@
     left: 451px;
     width: 32px;
     height: 35px;
-    background: transparent url('Group\ 2084.png') 0% 0% no-repeat padding-box;
+    background: transparent url('./img/Group\ 2084.png') 0% 0% no-repeat padding-box;
 }
 .date{
     position: absolute;
@@ -123,7 +122,7 @@
     border: 1px solid #C6C6C6;
     border-radius: 4px;
 }
-input[type="text"]{
+input{
     font-size: 18px;
     padding-left: 20px;
 }
@@ -200,7 +199,7 @@ button:focus{outline: none;}
     left: 1068px;
     width: 521px;
     height: 507px;
-    background: transparent url('Group\ 2137.png') 0% 0% no-repeat padding-box;
+    background: transparent url('./img/Group\ 2137.png') 0% 0% no-repeat padding-box;
 }
 .divider-one{
     position: absolute;
@@ -255,7 +254,7 @@ button:focus{outline: none;}
     left: 433px;
     width: 51px;
     height: 51px;
-    background: transparent url('Group\ 2140.png') 0% 0% no-repeat padding-box;
+    background: transparent url('./img/Group\ 2140.png') 0% 0% no-repeat padding-box;
     z-index: 1;
 }
 .bonus{
@@ -316,6 +315,7 @@ button:focus{outline: none;}
 .email-link{
     color: #36B8E5;
 }
+
 /* @media screen and (max-width: 1060px){
     #primary { width: 67%; }
     #secondary { width: 30%; margin-left: 3%; }
