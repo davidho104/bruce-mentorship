@@ -27,10 +27,12 @@
          <!-- Add validation and allow enter keypress  -->
     </form>
     <script>
-        let email = window.location.search.substring(1).split("?")[0].split("=")[1]
-        let fname = window.location.search.substring(1).split("?")[1].split("=")[1]
-        document.getElementById('auto-name').value=fname;
-        document.getElementById('auto-email').value=email;
+        if(window.location.search.substring(1).split("?")[0].split("=")[1] && window.location.search.substring(1).split("?")[1].split("=")[1]){
+            let email = window.location.search.substring(1).split("?")[0].split("=")[1]
+            let fname = window.location.search.substring(1).split("?")[1].split("=")[1]
+            document.getElementById('auto-name').value=fname;
+            document.getElementById('auto-email').value=email;
+        }
     </script>
     <button type="button" onclick="alert('Congratulations, seat successfully claimed!')">CLAIM MY SEAT NOW</button>
     <div class="miss-out-text">Don't Miss Out!</div>
