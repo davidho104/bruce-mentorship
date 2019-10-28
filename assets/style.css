@@ -2,17 +2,15 @@
     font-family: 'Open Sans'
 }
 nav{
-    /* left: 0px; */
     width: 100%;
     height: 148px;
     background: #0C2434 0% 0% no-repeat padding-box;
-    /* float:center; */
-    /* text-align: center; */
 }
 .first-body{
     padding-top: 104px;
+    padding-bottom: 230px;
     width: 100%;
-    height: 796px;
+    /* height: 796px; */
     background: transparent url('./img/Group\ 2138.png') 0% 0% no-repeat padding-box;
 }
 #first-text{
@@ -20,16 +18,15 @@ nav{
     font: bold 40px 'Open Sans';
     text-shadow: 0px 1px, 1.5px 0px, 1px 0.5px;
     letter-spacing: 3px;
-    color: #676767;
+    color: #6e6e6e;
 }
 #second-text{
     padding-top: 16px;
     padding-bottom: 35px;
     font: italic 29px 'Open Sans';
-    color: #676767;
+    color: #6e6e6e;
 }
 #line-decoration{
-    /* padding: 23px 0px 0px 0px; */
     border-bottom: 1.5px solid #bdbdbd;
 }
 #calendar{
@@ -37,7 +34,7 @@ nav{
 }
 #date{
     padding-top: 22px;
-    color: #676767;
+    color: #6e6e6e;
 }
 .form-box{
     width: 492px;
@@ -45,7 +42,6 @@ nav{
     border: 1px solid #E2E2E2;
     border-radius: 8px;
     background: white;
-    /* box-shadow: 5px 5px #E2E2E2; */
     box-shadow: 0px 0px 5px 3px #E2E2E2;
 }
 .form-description{
@@ -54,14 +50,14 @@ nav{
     font: bold 18px 'Open Sans';
     text-shadow: 0px 1px, 1px 0px, 1px 1px;
     letter-spacing: 2.6px;
-    color: #676767;
+    color: #6e6e6e;
 }
 .form-date{
     padding-top: 28px;
     text-align: center;
     text-align: center;
     font: 22px 'Open Sans';
-    color: #676767;
+    color: #6e6e6e;
 }
 #name-input{
     padding: 42px 0px 6px 0px;
@@ -69,6 +65,9 @@ nav{
 #email-input{
     padding: 0px 0px 30px 0px;
 }
+/* ::placeholder{
+    color: #CCCCCC;
+} */
 .claim-button{
     width: 100%;
     height: 65px;
@@ -89,14 +88,31 @@ form{
     text-align: center;
     font: italic 17px 'Open Sans';
     letter-spacing: 0.1px;
-    color: #676767;
+    color: #6e6e6e;
 }
 .form-control{
     height:60px;
     font-size: 15px;
     font-weight: 100;
 }
-
+.second-header{
+    text-align: left;
+    font: 40px 'Open Sans';
+    color: #6e6e6e;
+}
+.paragraph{
+    padding-top: 35px;
+    /* padding-right: 25px; */
+    font: 17px/30px 'Open Sans';
+    color: #6e6e6e;
+}
+#portrait-container{
+    height: 495px;
+    /* width: auto; */
+}
+#portrait{
+    width: 160%;
+}
 
 
 
