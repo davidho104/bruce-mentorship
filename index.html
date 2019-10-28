@@ -33,14 +33,24 @@
                         <div class="form-description">FREE LIVE WEBCAST</div>
                         <div class="form-date">Friday, January 4, 2019 at 3:15PM CT</div>
                         <form>
-                            <div class="form-group" id="nameInput">
-                                <input type="name" class="form-control" placeholder="NAME">
+                            <div class="form-group" id="name-input">
+                                <input type="text" class="form-control" id="auto-name" placeholder="NAME" name="FIRSTNAME" required autocomplete="FIRSTNAME">
                             </div>
-                            <div class="form-group" id="emailInput">
-                                <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="EMAIL ADDRESS">
+                            <div class="form-group" id="email-input">
+                                <input type="email" class="form-control" id="auto-email" aria-describedby="emailHelp" placeholder="EMAIL ADDRESS" name=EMAIL@EMAIL.COM required autocomplete="EMAIL@EMAIL.COM">
                             </div>
+    <!-- <input id="auto-name" class="form-name" type="text" name="FIRSTNAME" placeholder="NAME" required autocomplete="FIRSTNAME">
+    <input id="auto-email" class="form-email" type="email" name="EMAIL@EMAIL.COM" placeholder="EMAIL ADDRESS" required autocomplete="EMAIL@EMAIL.COM"> -->
                             <button type="submit" class="btn btn-primary claim-button">CLAIM MY SEAT NOW</button>
                         </form>
+                        <script>
+                            if(window.location.search.substring(1).split("?")[0].split("=")[1] && window.location.search.substring(1).split("?")[1].split("=")[1]){
+                                let email = window.location.search.substring(1).split("?")[0].split("=")[1]
+                                let fname = window.location.search.substring(1).split("?")[1].split("=")[1]
+                                document.getElementById('auto-name').value=fname;
+                                document.getElementById('auto-email').value=email;
+                            }
+                        </script>
                         <div class="miss-out-text">Don't Miss Out!</div>
                     </div>
                 </div>
