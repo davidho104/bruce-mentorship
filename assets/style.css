@@ -1,76 +1,45 @@
-.nav{
-    left: 0px;
-    width: 2000px;
+*{
+    font-family: 'Open Sans'
+}
+nav{
+    /* left: 0px; */
+    width: 100%;
     height: 148px;
     background: #0C2434 0% 0% no-repeat padding-box;
-}
-.logo{
-    position: absolute;
-    top: 54px;
-    left: 779px;
-    width: 443px;
-    height: 39px;
-    background: transparent url('./img/Trademark-ST-Logo-White.png') 0% 0% no-repeat padding-box;
+    /* float:center; */
+    /* text-align: center; */
 }
 .first-body{
-    top: 148px;
-    left: 0px;
-    width: 2000px;
+    padding-top: 104px;
+    width: 100%;
     height: 796px;
     background: transparent url('./img/Group\ 2138.png') 0% 0% no-repeat padding-box;
 }
-.first-text{
-    position: absolute;
-    top: 288px;
-    left: 451px;
-    width: 574px;
-    height: 216px;
-    text-align: left;
-    font: bold 53px/69px 'Open Sans';
+#first-text{
+    padding-top: 35px;
+    font: bold 40px 'Open Sans';
     text-shadow: 0px 1px, 1.5px 0px, 1px 0.5px;
     letter-spacing: 3px;
     color: #676767;
 }
-.second-text{
-    position: absolute;
-    top: 517px;
-    left: 451px;
-    width: 553px;
-    height: 126px;
-    text-align: left;
-    font: italic 40px/58px 'Open Sans';
+#second-text{
+    padding-top: 16px;
+    padding-bottom: 35px;
+    font: italic 29px 'Open Sans';
     color: #676767;
 }
-.line-decoration{
-    position: absolute;
-    top: 682px;
-    left: 451px;
-    width: 535px;
-    height: 0px;
-    border: 1px solid #707070;
+#line-decoration{
+    /* padding: 23px 0px 0px 0px; */
+    border-bottom: 1.5px solid #bdbdbd;
 }
-.calendar{
-    position: absolute;
-    top: 716px;
-    left: 451px;
-    width: 32px;
-    height: 35px;
-    background: transparent url('./img/Group\ 2084.png') 0% 0% no-repeat padding-box;
+#calendar{
+    padding-top: 16px;
 }
-.date{
-    position: absolute;
-    top: 722px;
-    left: 496px;
-    width: 488px;
-    height: 39px;
-    text-align: center;
-    font: 28px/26px 'Open Sans';
+#date{
+    padding-top: 22px;
     color: #676767;
 }
-.form{
-    position: absolute;
-    top: 254px;
-    left: 1063px;
+.form-box{
     width: 492px;
     height: 566px;
     border: 1px solid #E2E2E2;
@@ -78,249 +47,73 @@
     background: white;
     /* box-shadow: 5px 5px #E2E2E2; */
     box-shadow: 0px 0px 5px 3px #E2E2E2;
-
 }
 .form-description{
-    position: absolute;
-    top: 306px;
-    left: 1192px;
-    width: 222px;
-    height: 26px;
+    padding-top: 54px;
     text-align: center;
-    font: bold 18px/59px 'Open Sans';
+    font: bold 18px 'Open Sans';
     text-shadow: 0px 1px, 1px 0px, 1px 1px;
     letter-spacing: 2.6px;
     color: #676767;
 }
 .form-date{
-    position: absolute;
-    top: 364px;
-    left: 1109px;
-    width: 386px;
-    height: 32px;
+    padding-top: 28px;
     text-align: center;
-    font: 22px/34px 'Open Sans';
+    text-align: center;
+    font: 22px 'Open Sans';
     color: #676767;
 }
-.form-name{
-    position: absolute;
-    top: 433px;
-    left: 1097px;
-    width: 403px;
-    height: 68px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #C6C6C6;
-    border-radius: 4px;
+#nameInput{
+    padding: 42px 0px 6px 0px;
 }
-.form-email{
-    position: absolute;
-    top: 524px;
-    left: 1097px;
-    width: 403px;
-    height: 68px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #C6C6C6;
-    border-radius: 4px;
+#emailInput{
+    padding: 0px 0px 30px 0px;
 }
-input{
-    font-size: 18px;
-    padding-left: 20px;
-}
-::placeholder{
-    position: absolute;
-    top: 453px;
-    left: 1124px;
-    width: 51px;
-    height: 24px;
-    text-align: left;
-    font: 18px/24px open;
-    color: #CCCCCC;
-}
-button{
-    position: absolute;
-    top: 630px;
-    left: 1097px;
-    width: 423px;
-    height: 77px;
+.claim-button{
+    width: 100%;
+    height: 65px;
     background: transparent linear-gradient(180deg, #FCC57B 0%, #D98624 100%) 0% 0% no-repeat padding-box;
     border: 1px solid #D8A124;
     border-radius: 25px;
     text-align: center;
-    font: bold 29px/39px 'Open Sans';
+    font: bold 27px 'Open Sans';
     color: #FFFFFF;
     text-shadow: 0px 2px 2px #00000029;
     text-decoration: none;
 }
-button:focus{outline: none;}
+form{
+    padding: 0px 13px 0px 13px;
+}
 .miss-out-text{
-    position: absolute;
-    top: 734px;
-    left: 1243px;
-    width: 124px;
-    height: 24px;
+    padding-top: 30px;
     text-align: center;
-    font: italic 17px/24px 'Open Sans';
+    font: italic 17px 'Open Sans';
     letter-spacing: 0.1px;
     color: #676767;
 }
-.second-body{
-    top: 0px;
-    left: 0px;
-    width: 2000px;
-    /* height: 1615px; */
-    /* height: 130%; */
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-}
-.second-header{
-    position: absolute;
-    top: 1034px;
-    left: 451px;
-    width: 1100px;
-    height: 171px;
-    text-align: left;
-    font: lighter 67px/79px 'Open Sans';
-    letter-spacing: 0;
-    color: #676767;
-}
-.paragraph{
-    position: absolute;
-    top: 1233px;
-    left: 450px;
-    width: 668px;
-    height: 400px;
-    text-align: left;
-    font: 27px/45px 'Open Sans';
-    letter-spacing: 0;
-    color: #676767;
-}
-.portrait{
-    position: absolute;
-    top: 1179px;
-    left: 1068px;
-    width: 521px;
-    height: 507px;
-    background: transparent url('./img/Group\ 2137.png') 0% 0% no-repeat padding-box;
-}
-.divider-one{
-    position: absolute;
-    top: 1713px;
-    left: 451px;
-    width: 393px;
-    height: 0px;
-    border: .7px solid #707070;
-}
-.divider-two{
-    position: absolute;
-    top: 1693px;
-    left: 854px;
-    width: 293px;
-    height: 37px;
-    text-align: left;
-    font: italic 24px/45px 'Open Sans';
-    letter-spacing: 0;
-    color: #676767;
-}
-.divider-three{
-    position: absolute;
-    top: 1713px;
-    left: 1159px;
-    width: 366px;
-    height: 0px;
-    border: .7px solid #707070;
-}
-.checkmark{
-    position: absolute;
-    top: 1771px;
-    left: 450px;
-    width: 23px;
-    height: 18px;
-    color:#63B511;
-    font-size: 19px;
-}
-.list-includes{
-    position: absolute;
-    top: 1760px;
-    left: 484px;
-    width: 1041px;
-    height: 403px;
-    text-align: left;
-    font: 27px/44px 'Open Sans';
-    letter-spacing: 0;
-    color: #676767;
-}
-.addition{
-    position: absolute;
-    top: 2176px;
-    left: 433px;
-    width: 51px;
-    height: 51px;
-    background: transparent url('./img/Group\ 2140.png') 0% 0% no-repeat padding-box;
-    z-index: 1;
-}
-.bonus{
-    position: absolute;
-    top: 2222px;
-    left: 494px;
-    width: 1013px;
-    height: 82px;
-    text-align: left;
-    font: bold 27px/45px 'Open Sans';
-    letter-spacing: 0;
-    color: #676767;
-}
-.bonus-border{
-    position: absolute;
-    top: 2190px;
-    left: 450px;
-    width: 1100px;
-    height: 146px;
-    border: 1px solid #E2E2E2;
-    border-radius: 8px;
-}
-.footer{
-    position: absolute;
-    top: 2427px;
-    left: 0px;
-    width: 2000px;
-    height: 148px;
-    background: #0C2434 0% 0% no-repeat padding-box;
-}
-.footer-logo{
-    position: absolute;
-    top: 2491px;
-    left: 363px;
-    width: 225px;
-    height: 20px;
-    z-index: 1;
-}
-.footer-divider{
-    position: absolute;
-    top: 2473px;
-    left: 623px;
-    width: 0px;
-    height: 58px;
-    border: .7px solid #FFFFFF;
-}
-.footer-info{
-    position: absolute;
-    top: 2486px;
-    left: 659px;
-    width: 978px;
-    height: 30px;
-    text-align: left;
-    font: 19px/33px 'Open Sans';
-    color: white;
-    letter-spacing: .3px;
-}
-.email-link{
-    color: #36B8E5;
+.form-control{
+    height:60px;
+    font-size: 15px;
+    font-weight: 100;
 }
 
-/* @media screen and (max-width: 1060px){
-    #primary { width: 67%; }
-    #secondary { width: 30%; margin-left: 3%; }
+
+
+
+
+/* 1200px for large desktops */
+@media (max-width: 992px){
+
 }
-@media screen and (max-width: 768px){
-    #primary { width: 100%; }
-    #secondary { width: 100%; margin: 0; border: none; }
+@media (max-width: 768px){
+    
+}
+@media (max-width: 576px){
+    
+}
+
+
+/* BS padding fix
+[class*="col-"]{
+    padding: 1rem;
 } */
